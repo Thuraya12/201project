@@ -1,0 +1,27 @@
+
+body {
+    background-image: url(../img/circuit-board2.jpg);
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+}
+
+#about-me {
+    background-color: rgb(50, 202, 151);
+    color: white;
+    height: 50px;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
+    font-family: 'Lato',sans-serif;
+}
+#div1 {
+    background-color:rgb(33, 150, 111);
+    color: white;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-family: 'Lato',sans-serif;
+}
+footer {color:white;
+font-size: 30px;}
+
