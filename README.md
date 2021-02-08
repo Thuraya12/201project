@@ -8,9 +8,9 @@ I am building a website for a 201 web development course project, and this websi
 ### Author: Thuraiya Oudi
 
 ### Reflections and Comments
-creating This website wasn't hard to make and it was a good way for practicing mixing html, css, and js to make a good webpage.
+creating This website wasn't hard to make and it was a good way to practice mixing html, css, and js to make a good webpage.
 I think we are progressing step by step in a proper way and gradually towards more advanced things.
-It took me more than 3 hours to finish, i expected to finish earlier but I think it was because of the so many requirements that we must be careful to not mess any of them.
+It took me more than 3 hours to finish, I expected to finish earlier but I think it was because of the so many requirements that we must be careful to not miss any of them.
 
 I think the courses way of teaching allows me to know more by every class about the nature of this industry and find answers for things we wasn't noticing or don't know their nature and how the web works, and let me sit plans in my head for coming phases.
 
