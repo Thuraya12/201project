@@ -11,16 +11,16 @@ console.log(aboutMe);
 switch (aboutMe.toLowerCase()) {
     case 'yes':
     case 'y':
-        /*console.log( 'correct I\'m interested in technology');*/
+        // console.log( 'correct I\'m interested in technology');
         alert('correct I\'m interested in technology');
         break;
     case 'no':
     case 'n':
-        /*console.log('wrong guessing');*/
+        //console.log('wrong guessing');
         alert('wrong guessing, yes I am');
         break;
     default:
-        /* console.log('answer with yes/no or y/n with lowercase')*/
+        // console.log('answer with yes/no or y/n with lowercase')
         alert('answer with yes/no or y/n with lowercase');
 
 }
@@ -30,16 +30,16 @@ console.log(expert);
 switch (expert.toLowerCase()) {
     case 'yes':
     case 'y':
-        /*console.log('incorrect I\'m not an expert' );*/
+        //console.log('incorrect I\'m not an expert' );
         alert('incorrect I\'m not an expert');
         break;
     case 'no':
     case 'n':
-        /*console.log('correct, Im a beginner programmer');*/
+        //console.log('correct, Im a beginner programmer');
         alert('correct, Im a beginner programmer');
         break;
     default:
-        /* console.log('answer with yes/no or y/n with lowercase')*/
+        //console.log('answer with yes/no or y/n with lowercase')
         alert('answer with yes/no or y/n with lowercase');
 
 }
@@ -48,58 +48,127 @@ console.log(country);
 switch (country.toLowerCase()) {
     case 'yes':
     case 'y':
-        /*console.log('incorrect I;m based in Jordan' );*/
+        //console.log('incorrect I;m based in Jordan' );
         alert('incorrect I\'m based in Jordan');
         break;
     case 'no':
     case 'n':
-        /*console.log('correct, Im outside of USA specifically in Jordan');*/
+        //console.log('correct, Im outside of USA specifically in Jordan');
         alert('correct, Im outside of USA specifically in Jordan');
         break;
     default:
-        /* console.log('answer with yes/no or y/n with lowercase')*/
+        // console.log('answer with yes/no or y/n with lowercase')
         alert('answer with yes/no or y/n with lowercase');
 }
 
 
 
 
-        let userInterest = prompt('Are you interested in programming?');
-        console.log(userInterest);
-        switch (userInterest.toLowerCase()) {
-            case 'yes':
-            case 'y':
-                /*console.log( 'This website will help you learn more');*/
-                alert('This website will help you learn more');
-                break;
-            case 'no':
-            case 'n':
-                /*console.log('You can surf this website whenever you want programming information');*/
-                alert('You can surf this website whenever you want programming information');
-                break;
-            default:
-                /* console.log('answer with yes/no or y/n with lowercase')*/
-                alert('answer with yes/no or y/n with lowercase');
-        }
+let userInterest = prompt('Are you interested in programming?');
+console.log(userInterest);
+switch (userInterest.toLowerCase()) {
+    case 'yes':
+    case 'y':
+        //console.log( 'This website will help you learn more');
+        alert('This website will help you learn more');
+        break;
+    case 'no':
+    case 'n':
+        //console.log('You can surf this website whenever you want programming information');
+        alert('You can surf this website whenever you want programming information');
+        break;
+    default:
+        // console.log('answer with yes/no or y/n with lowercase')
+        alert('answer with yes/no or y/n with lowercase');
+}
 
-        let courses=prompt('Are you looking for courses?');
-        console.log(courses);
+let courses = prompt('Are you looking for courses?');
+console.log(courses);
 
-        switch (courses.toLowerCase()) {
-            case 'yes':
-            case 'y':
-                /*console.log( we provide general articles not courses');*/
-                alert('we provide general articles not courses');
-                break;
-            case 'no':
-            case 'n':
-                /*console.log('this web site talks about programming in general');*/
-                alert('this web site talks about programming in general');
-                break;
-            default:
-                /* console.log('answer with yes/no or y/n with lowercase')*/
-                alert('answer with yes/no or y/n with lowercase');
-        }
+switch (courses.toLowerCase()) {
+    case 'yes':
+    case 'y':
+        //console.log( we provide general articles not courses');
+        alert('we provide general articles not courses');
+        break;
+    case 'no':
+    case 'n':
+        //console.log('this web site talks about programming in general');
+        alert('this web site talks about programming in general');
+        break;
+    default:
+        // console.log('answer with yes/no or y/n with lowercase')
+        alert('answer with yes/no or y/n with lowercase');
+}
+
+let htmlquestion = prompt('what version of HTML is used nowadays?' + 'answer with the version number');
+console.log(htmlquestion);
+
+
+let score = 0
+let version = [1, 3, 4, 5];
+
+
+
+
+//let version2 = [5, 6, 7, 8];
+
+for (let i = 0; i < version.length; i++) {
+    if (i < 5) { let wrongAnswer = prompt('guess the version number') + alert(' too low '); console.log(wrongAnswer); } 
+}
+
+/*for (let i = 0; i > version2.length; i++) {
+    if (i > 5) { let wrongAnswer2 = prompt('guess the version number'); + alert(' too high '); console.log(wrongAnswer2); }
+}*/
+
+
+
+
+    //else if (i > 5) { let wrongAnswer2 = prompt('guess the version number') + alert('too high'); }
+
+    //else if (i=5)
+
+
+//{alert(version[i]);
+//console.log(version[i]);}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//if(htmlquestion=[4]){alert('correct');}
+
+
+
+
+//}
+
+
+
+
+/*for (i = 0; i < 4; i++) {
+    if ( i= 0; i < version.length || i > version.length; i++) {
+        alert('wrong');
+
+    } else {
+         { alert('correct'); break; }
+
+    }
+}
+*/
+
+//else  (let i=0;i=version.length;i){alert('correct'); break;
+//let i = 0; i = version.length; i)
+
 
 
 

@@ -7,6 +7,9 @@ I am building a website for a 201 web development course project, and this websi
 
 ### Author: Thuraiya Oudi
 
+### tools and features used:
+Array and For loop
+
 ### Reflections and Comments
 creating This website wasn't hard to make and it was a good way to practice mixing html, css, and js to make a good webpage.
 I think we are progressing step by step in a proper way and gradually towards more advanced things.

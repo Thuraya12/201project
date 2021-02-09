@@ -25,3 +25,20 @@ body {
 footer {color:white;
 font-size: 30px;}
 
+#top-ten {
+    background-color: rgb(238, 143, 159); 
+    color:teal;
+    margin-bottom: 0px;
+    width: 500px;
+    height: 40px;
+    padding-top: 15px;
+}
+#div2 {
+    background-image: url(../img/travel.jpg); 
+    width: 500px; height: 500px;
+    font-size: 22px;
+    color: rgb(42, 18, 66);
+    margin-top: 0px;
+    
+}
+#ol {margin-top: 0px;}
