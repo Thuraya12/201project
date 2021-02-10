@@ -22,5 +22,5 @@ I think the courses way of teaching allows me to know more by every class about 
 Evaluating what we've learned couple times a week or more is very good to make us revise the amount of knowledge and skills that we grasped and know where we were and where we are now.
 
 # Driver and Navigator
-### I was Driver for lab04 on this website repository modification and Qusai Qeshta was Driver.
+### I was Navigator for lab04 on this website repository modification and Qusai Qeshta was Driver.
 We checked eachother's code to confirm the changes.

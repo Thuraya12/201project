@@ -4,7 +4,7 @@
 let userName = prompt('What is your name?')
 console.log(userName);
 alert('Welcom' + ' ' + userName);
-
+function p1 (){
 let aboutMe = prompt('Do you think i\'m interested in technology?');
 console.log(aboutMe);
 
@@ -24,7 +24,10 @@ switch (aboutMe.toLowerCase()) {
         alert('answer with yes/no or y/n with lowercase');
 
 }
+}
+p1();
 
+function p2() {
 let expert = prompt('Am I an expert in technical fields?');
 console.log(expert);
 switch (expert.toLowerCase()) {
@@ -43,6 +46,10 @@ switch (expert.toLowerCase()) {
         alert('answer with yes/no or y/n with lowercase');
 
 }
+}
+p2();
+
+function p3(){
 let country = prompt('Am I based in the united states?');
 console.log(country);
 switch (country.toLowerCase()) {
@@ -60,10 +67,12 @@ switch (country.toLowerCase()) {
         // console.log('answer with yes/no or y/n with lowercase')
         alert('answer with yes/no or y/n with lowercase');
 }
+}
+p3();
 
 
 
-
+function p4 (){
 let userInterest = prompt('Are you interested in programming?');
 console.log(userInterest);
 switch (userInterest.toLowerCase()) {
@@ -81,7 +90,11 @@ switch (userInterest.toLowerCase()) {
         // console.log('answer with yes/no or y/n with lowercase')
         alert('answer with yes/no or y/n with lowercase');
 }
+}
+p4 ();
 
+
+function p5 () {
 let courses = prompt('Are you looking for courses?');
 console.log(courses);
 
@@ -100,63 +113,54 @@ switch (courses.toLowerCase()) {
         // console.log('answer with yes/no or y/n with lowercase')
         alert('answer with yes/no or y/n with lowercase');
 }
-
-let htmlquestion = prompt('what version of HTML is used nowadays?' + 'answer with the version number');
-console.log(htmlquestion);
-
-
-let score = 0
-let version = [1, 3, 4, 5];
-
-
-
-
-//let version2 = [5, 6, 7, 8];
-
-for (let i = 0; i < version.length; i++) {
-    if (i < 5) { let wrongAnswer = prompt('guess the version number') + alert(' too low '); console.log(wrongAnswer); } 
 }
+p5();
 
-/*for (let i = 0; i > version2.length; i++) {
-    if (i > 5) { let wrongAnswer2 = prompt('guess the version number'); + alert(' too high '); console.log(wrongAnswer2); }
-}*/
-
-
-
-    //else if (i > 5) { let wrongAnswer2 = prompt('guess the version number') + alert('too high'); }
-
-    //else if (i=5)
+function p6() {
+    let htmlquestion = prompt('what version of HTML is used nowadays?' + 'answer with the version number');
+    console.log(htmlquestion);
 
 
-//{alert(version[i]);
-//console.log(version[i]);}
+    let score = 0
 
 
-
-//if(htmlquestion=[4]){alert('correct');}
-
-
-//}
+    let correctNumber = 5
 
 
+    for (let i = 0; i < 4; i++) {
 
-/*for (i = 0; i < 4; i++) {
-    if ( i= 0; i < version.length || i > version.length; i++) {
-        alert('wrong');
+        if (htmlquestion < 5) {
+            let wrongAnswer = prompt('guess the version number') + alert(' too low '); console.log(wrongAnswer);
+        }
 
-    } else {
-         { alert('correct'); break; }
+        else if (htmlquestion > 5) { let wrongAnswer2 = prompt('guess the version number') + alert('too high'); console.log(wrongAnswer2); }
 
+        else if (htmlquestion == 5) { alert('correct it\'s HTML5'); break; }
+
+        else if (i == 4) { alert('the correct answer is 5'); }
     }
+
 }
-*/
-
-//else  (let i=0;i=version.length;i){alert('correct'); break;
-//let i = 0; i = version.length; i)
 
 
+p6();
 
+function p7 (){
+let question7 = prompt('guess one of my favorite countries');
+let countries = ['spain', 'italy', 'turkey', 'korea', 'qatar'];
 
+for (let j = 0; j < 5; j++) {
+    if (question7 === countries  [0], [1], [2], [3], [4]) { alert('correct it\'s one of my favorite countries'); break; 
+   } 
+    else if (question7 !== countries[1],[1], [2], [3], [4]) { let q7 = prompt('incorrect, try again');}
+     
+   //else if (j == 5) { alert('my favorite countries are, spain, italy, turkey, korea, qatar'); }
 
+    
+
+}
+
+}
+p7();
 
 
