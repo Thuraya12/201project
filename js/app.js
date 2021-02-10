@@ -1,6 +1,8 @@
 
 'use strict';
 
+let score = 0
+
 let userName = prompt('What is your name?')
 console.log(userName);
 alert('Welcom' + ' ' + userName);
@@ -13,6 +15,7 @@ switch (aboutMe.toLowerCase()) {
     case 'y':
         // console.log( 'correct I\'m interested in technology');
         alert('correct I\'m interested in technology');
+        score++;
         break;
     case 'no':
     case 'n':
@@ -40,6 +43,7 @@ switch (expert.toLowerCase()) {
     case 'n':
         //console.log('correct, Im a beginner programmer');
         alert('correct, Im a beginner programmer');
+        score++;
         break;
     default:
         //console.log('answer with yes/no or y/n with lowercase')
@@ -62,6 +66,7 @@ switch (country.toLowerCase()) {
     case 'n':
         //console.log('correct, Im outside of USA specifically in Jordan');
         alert('correct, Im outside of USA specifically in Jordan');
+        score++;
         break;
     default:
         // console.log('answer with yes/no or y/n with lowercase')
@@ -121,7 +126,7 @@ function p6() {
     console.log(htmlquestion);
 
 
-    let score = 0
+    
 
 
     let correctNumber = 5
@@ -135,7 +140,7 @@ function p6() {
 
         else if (htmlquestion > 5) { let wrongAnswer2 = prompt('guess the version number') + alert('too high'); console.log(wrongAnswer2); }
 
-        else if (htmlquestion == 5) { alert('correct it\'s HTML5'); break; }
+        else if (htmlquestion == 5) { alert('correct it\'s HTML5'); score++;  break; }
 
         else if (i == 4) { alert('the correct answer is 5'); }
     }
@@ -150,7 +155,9 @@ let question7 = prompt('guess one of my favorite countries');
 let countries = ['spain', 'italy', 'turkey', 'korea', 'qatar'];
 
 for (let j = 0; j < 5; j++) {
-    if (question7 === countries  [0], [1], [2], [3], [4]) { alert('correct it\'s one of my favorite countries'); break; 
+    if (question7 === countries  [0], [1], [2], [3], [4]) { alert('correct it\'s one of my favorite countries'); 
+    score++;
+    break; 
    } 
     else if (question7 !== countries[1],[1], [2], [3], [4]) { let q7 = prompt('incorrect, try again');}
      
@@ -162,5 +169,6 @@ for (let j = 0; j < 5; j++) {
 
 }
 p7();
+alert('your score is ' + score);
 
 
