@@ -4,8 +4,8 @@
 let userName = prompt('What is your name?')
 console.log(userName);
 alert('Welcom' + ' ' + userName);
-function q1 (){
-    let aboutMe = prompt('Do you think i\'m interested in technology?');
+
+let aboutMe = prompt('Do you think i\'m interested in technology?');
 console.log(aboutMe);
 
 switch (aboutMe.toLowerCase()) {
@@ -23,12 +23,9 @@ switch (aboutMe.toLowerCase()) {
         // console.log('answer with yes/no or y/n with lowercase')
         alert('answer with yes/no or y/n with lowercase');
 
-}}
-q1();
+}
 
-
-function q2(){
-    let expert = prompt('Am I an expert in technical fields?');
+let expert = prompt('Am I an expert in technical fields?');
 console.log(expert);
 switch (expert.toLowerCase()) {
     case 'yes':
@@ -45,12 +42,8 @@ switch (expert.toLowerCase()) {
         //console.log('answer with yes/no or y/n with lowercase')
         alert('answer with yes/no or y/n with lowercase');
 
-}}
-q2();
-
-
-function q3(){
-    let country = prompt('Am I based in the united states?');
+}
+let country = prompt('Am I based in the united states?');
 console.log(country);
 switch (country.toLowerCase()) {
     case 'yes':
@@ -66,15 +59,12 @@ switch (country.toLowerCase()) {
     default:
         // console.log('answer with yes/no or y/n with lowercase')
         alert('answer with yes/no or y/n with lowercase');
-}}
-q3();
+}
 
 
 
 
-function q4()
-{
-    let userInterest = prompt('Are you interested in programming?');
+let userInterest = prompt('Are you interested in programming?');
 console.log(userInterest);
 switch (userInterest.toLowerCase()) {
     case 'yes':
@@ -90,13 +80,9 @@ switch (userInterest.toLowerCase()) {
     default:
         // console.log('answer with yes/no or y/n with lowercase')
         alert('answer with yes/no or y/n with lowercase');
-}}
-q4();
+}
 
-
-function q5()
-{
-    let courses = prompt('Are you looking for courses?');
+let courses = prompt('Are you looking for courses?');
 console.log(courses);
 
 switch (courses.toLowerCase()) {
@@ -113,37 +99,27 @@ switch (courses.toLowerCase()) {
     default:
         // console.log('answer with yes/no or y/n with lowercase')
         alert('answer with yes/no or y/n with lowercase');
-}}
-q5();     
+}
 
-
-
-function q6()
-{
-    let htmlquestion = prompt('what version of HTML is used nowadays?' + 'answer with the version number');
+let htmlquestion = prompt('what version of HTML is used nowadays?' + 'answer with the version number');
 console.log(htmlquestion);
 
 
 let score = 0
 let version = [1, 3, 4, 5];
-for (let i = 0; i < version.length; i++) {
-    if (i < 5) { let wrongAnswer = prompt('guess the version number') + alert(' too low '); console.log(wrongAnswer); } 
-}}
-
-    
-
 
 
 
 
 //let version2 = [5, 6, 7, 8];
 
-
+for (let i = 0; i < version.length; i++) {
+    if (i < 5) { let wrongAnswer = prompt('guess the version number') + alert(' too low '); console.log(wrongAnswer); } 
+}
 
 /*for (let i = 0; i > version2.length; i++) {
     if (i > 5) { let wrongAnswer2 = prompt('guess the version number'); + alert(' too high '); console.log(wrongAnswer2); }
 }*/
-
 
 
 
@@ -157,24 +133,10 @@ for (let i = 0; i < version.length; i++) {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 //if(htmlquestion=[4]){alert('correct');}
 
 
-
-
 //}
-
 
 
 
